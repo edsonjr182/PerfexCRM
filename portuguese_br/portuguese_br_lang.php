@@ -3628,37 +3628,36 @@ $lang['payment_sent_successfully']                 = 'Recibo de pagamento enviad
 $lang['payment_sent_failed']                       = 'Não foi possível enviar o comprovante de pagamento.';
 
 # Version 2.3.5
-$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
-$lang['attach_statement']            = 'Attach Customer Statement';
+$lang['tags_update_replace_warning'] = 'Algumas tags não são atualizadas porque o nome da tag já existe';
+$lang['attach_statement']            = 'Anexar Declaração do Cliente';
 
 # Version 2.4.0
-$lang['delete_credit_card']               = 'Delete Card';
-$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
-$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
-$lang['subscription_incomplete']          = 'Incomplete';
-$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
-$lang['credit_card_short']                = 'Card';
-$lang['webhook_created']                  = 'Webhook created successfully.';
-$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
-$lang['subscription_complete_payment']    = 'Complete Payment';
-$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
-$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
-$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
-$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';
+$lang['delete_credit_card']               = 'Apagar cartão';
+$lang['delete_credit_card_info']          = 'Você não pode deletar o cartão de crédito porque você tem assinaturas ativas.';
+$lang['credit_card_successfully_deleted'] = 'Cartão de crédito excluído com sucesso.';
+$lang['subscription_incomplete'] 	        = 'Incompleto';
+$lang['subscription_incomplete_expired']  = 'Incompleto expirado';
+$lang['credit_card_short'] 		             = 'Cartão';
+$lang['webhook_created'] 		               = 'Webhook criado com sucesso.';
+$lang['subscriptions_terms_info'] 	       = 'Insira os termos e condições a serem exibidos para o cliente antes da assinatura.';
+$lang['subscription_complete_payment'] 	  = 'Concluir pagamento';
+$lang['subscription_is_subscription_is_expired'] = 'Esta assinatura expirou.';
+$lang['subscription_plan_currency_does_not_match'] = 'A moeda do plano selecionado não corresponde à moeda selecionada abaixo.';
+$lang['subscription_first_billing_date_info'] = 'Deixe em branco para usar a data quando o cliente está inscrito na plano. Este campo deve ser uma data futura, se você selecionar a data e a data já passou, mas o cliente ainda não está inscrito, será usada a data em que o cliente fará a inscrição. ';
+$lang['stripe_subscription_select_plan']  = 'Selecionar plano Stripe';
 
 # Version 2.4.1
-$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
-                              administrator to allow you permission to edit contracts.';
-$lang['mark_as_signed']                 = 'Mark as signed';
-$lang['unmark_as_signed']               = 'Unmark as signed';
-$lang['marked_as_signed']               = 'Marked as signed';
-$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
-$lang['save_and_send_later']            = 'Save and Send Later';
-$lang['schedule']                       = 'Schedule';
-$lang['schedule_email_for']             = 'Schedule Email for %s';
-$lang['schedule_date']                  = 'When would you like to send the email?';
-$lang['email_scheduled_successfully']   = 'Email scheduled successfully';
-$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
+$lang['contract_content_permission_edit_warning'] = 'Suas permissões atuais não permitem que você edite o conteúdo do contrato. Consulte um administrador para permitir a você editar contratos.';
+$lang['mark_as_signed']                           = 'Marcar como assinado';
+$lang['unmark_as_signed']                         = 'Desmarcar como assinado';
+$lang['marked_as_signed']                         = 'Marcado como assinado';
+$lang['contract_marked_as_signed_info']           = 'Este contrato é marcado manualmente como assinado.';
+$lang['save_and_send_later']                      = 'Salvar e enviar mais tarde';
+$lang['agenda']                                   = 'Agenda';
+$lang['schedule_email_for']                       = 'Agendar e-mail para %s';
+$lang['schedule_date']                            = 'Quando você gostaria de enviar o e-mail?';
+$lang['email_scheduled_successfully']             = 'Email agendado com sucesso';
+$lang['invoice_will_be_sent_at']                  = 'A fatura será enviada em %s';
 
 # Version 2.5.0
 $lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
